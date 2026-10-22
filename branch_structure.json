@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-77-deploy-contracts-sh-mis-uses-the-soroban-cli",
+    "fix/issue-78-backend-dockerfile-uses-npm-install-not-npm-ci",
+    "fix/issue-79-typeorm-migrations-glob-points-at-the-wrong",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-77-deploy-contracts-sh-mis-uses-the-soroban-cli": "main",
+    "fix/issue-78-backend-dockerfile-uses-npm-install-not-npm-ci": "main",
+    "fix/issue-79-typeorm-migrations-glob-points-at-the-wrong": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-77-deploy-contracts-sh-mis-uses-the-soroban-cli",
+    "fix/issue-78-backend-dockerfile-uses-npm-install-not-npm-ci",
+    "fix/issue-79-typeorm-migrations-glob-points-at-the-wrong",
+    "origin"
+  ]
+}
